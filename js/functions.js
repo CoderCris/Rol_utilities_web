@@ -1,4 +1,4 @@
-function roll(){
+function scum(){
 
 
 	var para = document.createElement("p");
@@ -9,7 +9,7 @@ function roll(){
 
 }
 
-function dummie(){
+function roll(){
 	document.getElementById("rollResult").innerHTML = Math.floor(Math.random() * document.getElementById("faces").value);
 	//document.getElementById("faces").value * document.getElementById("faces").value
 }
